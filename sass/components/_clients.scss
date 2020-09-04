@@ -1,0 +1,30 @@
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.clients-element {
+  width: 170px;
+  border-radius: 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.clients-icon {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+
+  .clients-icons-link:hover &,
+  .clients-icons-link:focus & {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+}

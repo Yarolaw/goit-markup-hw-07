@@ -1,0 +1,99 @@
+body {
+  font-family: $roboto;
+}
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+ul {
+  list-style: none;
+}
+.overlay {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-color: #212121;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/Header.jpg);
+}
+.section {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $primary-text-color;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+h2 {
+  margin-bottom: 4px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: $primary-text-color;
+}
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.87;
+  color: $secondary-text-color;
+}
+footer {
+  background-color: #2f303a;
+}
+b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $primary-white-color;
+}
+button {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+.top-tittle {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: $primary-white-color;
+}
+
+.tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: $primary-text-color;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}

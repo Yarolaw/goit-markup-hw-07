@@ -1,0 +1,36 @@
+.icon-contacts {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: #757575;
+
+  .mail:hover &,
+  .mail:focus & {
+    fill: $accent-color;
+  }
+  .tel:hover &,
+  .tel:focus & {
+    fill: $accent-color;
+  }
+}
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $secondary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $secondary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

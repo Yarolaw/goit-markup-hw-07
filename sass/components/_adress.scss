@@ -1,0 +1,16 @@
+.adress-list {
+  margin: 0;
+  padding: 0;
+}
+.adress-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.adress-prime {
+  margin-top: 20px;
+}
+.adress-block {
+  width: 231px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 69px;
+}

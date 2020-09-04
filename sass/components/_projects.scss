@@ -1,0 +1,31 @@
+.projects {
+  color: $primary-white-color;
+  margin: 0;
+  padding: 27px;
+  text-align: center;
+}
+.projects-item {
+  margin-top: 0;
+  margin-bottom: 94px;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects-elements {
+  width: 370px;
+
+  .projects-item &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.box-image {
+  position: relative;
+}
+.text-position {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}

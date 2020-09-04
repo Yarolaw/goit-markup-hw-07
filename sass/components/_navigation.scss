@@ -1,0 +1,29 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav-list {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  padding-left: 0;
+  margin-left: 85px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  & .item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.list {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
